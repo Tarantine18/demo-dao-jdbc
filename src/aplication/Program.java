@@ -12,6 +12,7 @@ public class Program {
 
 	Seller seller = sellerDao.findById(3);
 	
+	System.out.println("===TEST 1=== seller fine by ID	");
 	System.out.println(seller);
 	
 	
