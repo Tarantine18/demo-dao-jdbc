@@ -72,6 +72,9 @@ public class Seller implements Serializable {
 	public Department getDepartment() {
 		return department;
 	}
+	public void setDepartment(Department department) {
+		this.department = department;
+	}
 
 	@Override
 	public int hashCode() {
